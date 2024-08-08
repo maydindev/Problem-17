@@ -6,6 +6,8 @@ export default function Counter() {
 
   useEffect(() => {
     console.log('Rendering Sonrası')
+    document.title = `Butona Tıklama Sayısı: ${count}`
+
   })
 
   function updateCount() {
